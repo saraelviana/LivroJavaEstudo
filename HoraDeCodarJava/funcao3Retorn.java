@@ -5,8 +5,10 @@ public class funcao3Retorn {
         // AQUI NESTE BLOCO VOCE CHAMA A FUNÇÃO
         saudar("João");
 
-        
-        
+        dobrar(5); // AQUI EU CHAMEI A FUNÇÃO DOBRAR, MAS NÃO FIZ NADA COM O RESULTADO
+        int resultado = dobrar(5); // AQUI EU CHAMEI A FUNÇÃO DOBRAR E ARMAZENEI O RESULTADO NA VARIÁVEL
+        // AGORA POSSO USAR ESSA VARIÁVEL IMPRIMINDO-A
+        System.out.println("O dobro de 5 é: " + resultado);
     }
     public static void saudar(String nome){
         System.out.println("Seja bem vindo " + nome);
